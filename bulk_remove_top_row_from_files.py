@@ -7,6 +7,6 @@ for filename in glob('*.csv'):
 
     df = df.iloc[1:]
 
-    df.to_csv('/Users/sm029588/OneDrive - Cerner Corporation/Spotify/Daily/'+filename+'_clean.csv', index = False, header=False)
+    df.to_csv('file-path'+filename+'_clean.csv', index = False, header=False)
 
     print(filename)
